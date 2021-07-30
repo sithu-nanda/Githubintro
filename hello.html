@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		button{
+			
+			background: #000;
+			color: #fff;
+			/*padding: 20px;*/
+			box-sizing: border-box;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<h2>My First Javascript</h2>
+
+	<button type="button"
+	onclick="document.getElementById('demo').innerHTML = Date()">T</button>
+	<p id="demo"></p>
+	<h1 id="pass"></h1>
+	<h3 id="changeFun" onclick="changeFun()" >Walar Paingsoe</h3>
+</body>
+<script type="text/javascript">
+	alert("Hello World!");
+	document.getElementById("pass").innerHTML = "My First Javascript pass";
+
+	function changeFun(){
+		document.getElementById("changeFun").innerHTML = "Nanda Aung"
+	}
+</script>
+</html>

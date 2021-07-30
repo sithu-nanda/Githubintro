@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<p id="text"></p>
+	<button type="button" onclick="document.write(1-1) "> Button</button>
+	<button type="button" onclick="window.print()">Print Everything</button>
+	<button type="button" onclick="alertfun()">
+		function
+	</button>
+</body>
+<script type="text/javascript">
+	document.getElementById("text").innerHTML = "07/01/2021";
+
+	document.write("Write");
+
+	// window.alert("Mylove");
+	// document.alert("Nanda")
+	alert("Hello Everything");
+	console.log("Error Test by Sithu")
+
+	function alertfun() {
+		window.alert("It's function butt");
+	};
+
+	const person = {
+		firstName : "Sithu",
+		lastName : "Yannaing",
+		Love : "Nanda Aung",
+		fullname : function() {
+			return this.firstName + " " + this.lastName;
+
+		},
+		about : function() {
+			return this.fullname() + " has "+ this.Love;
+		}
+	};
+</script>
+</html>
